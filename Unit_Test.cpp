@@ -1,7 +1,5 @@
-// DoublyLinkedList.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
+// #include "stdafx.h"
+#include "DoublyLinkedList.h"
 
 using namespace std;
 
@@ -132,12 +130,12 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// test isEmpty() with full list
 	list = new DoublyLinkedList <int>;
-	
+
 	for (int i = 0; i < 10; i++)
 	{
 		list->insertHead(arr[i]);
 	}
-	
+
 	output << "DoublyLinkedList<T>::isEmpty() with full list" << endl;
 	output << "a : e (actual : expected)" << endl;
 	if (list->isEmpty())
@@ -234,4 +232,3 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	return 0;
 }
-
