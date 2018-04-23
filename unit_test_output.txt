@@ -124,7 +124,6 @@ a : e (actual : expected)
 3 : 3
 2 : 2
 1 : 1
-1 : 0
 DoublyLinkedList<T>::size() while inserting 10 elements
 a : e (actual : expected)
 0 : 0
@@ -137,4 +136,3 @@ a : e (actual : expected)
 7 : 7
 8 : 8
 9 : 9
-10 : 10

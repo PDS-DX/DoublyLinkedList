@@ -1,11 +1,10 @@
-// #include "stdafx.h"
 #include "DoublyLinkedList.h"
 
 using namespace std;
 
-
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
+
 	fstream output;
 	output.open("unit_test_output.txt", ios_base::out);
 	DoublyLinkedList<int> * list;

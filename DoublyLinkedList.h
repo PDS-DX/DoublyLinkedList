@@ -4,6 +4,8 @@
 #pragma warning(disable : 4715)
 
 #include "Node.h"
+#include <iostream>
+#include <fstream>
 #include <cstdint>
 #include <exception>
 
